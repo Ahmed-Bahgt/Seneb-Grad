@@ -215,61 +215,12 @@ seneb/
 └── .env.production.example # Template for environment variables
 ```
 
----
-
-## ⚙️ Setup & Configuration
-
-### 1. Clone the repository
-```bash
-git clone https://github.com/Ahmed-Bahgt/Seneb-Grad.git
-cd Seneb-Grad
-```
-
-### 2. Backend Setup
-```bash
-cd custom_backend
-cp ../.env.production.example .env
-# Fill in your API keys in .env
-pip install -r requirements.txt
-uvicorn main:app --reload
-```
-
-### 3. Flutter App Setup
-```bash
-# Copy the example config and fill in your keys
-cp lib/utils/api_config.example.dart lib/utils/api_config.dart
-# Edit api_config.dart with your backend URL and API keys
-
-flutter pub get
-flutter run
-```
-
-### 4. Deploy with Docker
-```bash
-cp .env.production.example .env
-# Edit .env with real credentials
-docker compose up -d --build
-```
-
----
-
-## 🔑 Required API Keys
-
-| Key | Service | Used For |
-|-----|---------|---------|
-| `GEMINI_API_KEY` | Google AI Studio | Clinical analysis & nutrition AI |
-| `OPENROUTER_API_KEY` | OpenRouter | Radiology report generation |
-| `POSTGRES_URL` | Neon / PostgreSQL | Database connection |
-| Firebase Config | Firebase Console | Auth, Firestore, Storage |
-
-> All keys should be placed in `.env` (backend) and `lib/utils/api_config.dart` (Flutter app). **Never commit real keys to version control.**
-
----
 
 ## 👨‍💻 Team
 
-Developed as a graduation project by **Ahmed Bahgat** and team.
+Developed as a graduation project by **Ahmed Bahgat** , **Ahmed Hossam** , **Mohamed Ayoub** , **Ebrahim Mohamed** , **Farah Ahmed** , **Laila Mohamed Samir** .
 
-**Supervised by:** [Supervisor Name]  
-**Institution:** [Faculty Name]  
+**Supervised by:** [Dr.Noha Gamal El-Din]  
+**Institution:** [School of Information Technology and Computer Science
+Program of Artificial Intelligence ]  
 **Year:** 2026
