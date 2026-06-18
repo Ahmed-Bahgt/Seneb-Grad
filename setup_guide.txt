@@ -1,0 +1,26 @@
+# Tamren Tech - Project Setup Guide
+
+This project consists of a Flutter Mobile App and a FastAPI Python Backend.
+
+## 1. Backend Setup (custom_backend folder)
+1. Install Python (3.10+ recommended).
+2. Open terminal in 'custom_backend'.
+3. Run: pip install -r requirements.txt
+4. Run the server: python main.py
+   - The server will run on http://127.0.0.1:8000
+
+## 2. Flutter App Setup
+1. Install Flutter and Dart.
+2. Open the project in VS Code / Android Studio.
+3. IMPORTANT: Update the API Address
+   - Go to 'lib/utils/api_config.dart'.
+   - Change 'baseUrl' to YOUR local IP (e.g., http://192.168.1.XX:8000).
+   - If using Android Emulator, use: http://10.0.2.2:8000
+4. Run: flutter pub get
+5. Run the app: flutter run
+
+## 3. Remote Testing (Optional)
+If you want to share the local server with someone over the internet:
+1. Use 'ngrok http 8000'.
+2. Copy the https link provided by ngrok.
+3. Update 'baseUrl' in 'api_config.dart' with that link.

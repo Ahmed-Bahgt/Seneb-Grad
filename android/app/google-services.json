@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "272707418252",
+    "project_id": "tamrentech",
+    "storage_bucket": "tamrentech.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:272707418252:android:4c677c93b90cbce890e3a9",
+        "android_client_info": {
+          "package_name": "com.example.tamren_tech"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCSvHKKduRrCkEyaoNuDIg8MtnNGZWxRxA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

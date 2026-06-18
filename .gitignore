@@ -1,0 +1,67 @@
+# Large files (videos, recordings)
+*.mp4
+*.flv
+*.avi
+*.mov
+
+# Node.js dependencies
+node_modules/
+**/node_modules/
+
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.build/
+.buildlog/
+.history
+.svn/
+.swiftpm/
+migrate_working_dir/
+
+# API Keys & Sensitive Configuration
+lib/utils/api_config.dart
+.env
+*.env
+api_keys.txt
+*-firebase-adminsdk-*.json
+custom_backend/.env
+custom_backend/ngrok_bin/
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# The .vscode folder contains launch configuration and tasks you configure in
+# VS Code which you may wish to be included in version control, so this line
+# is commented out by default.
+#.vscode/
+
+# Flutter/Dart/Pub related
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+/build/
+/coverage/
+
+# Symbolication related
+app.*.symbols
+
+# Obfuscation related
+app.*.map.json
+
+# Android Studio will place build artifacts here
+/android/app/debug
+/android/app/profile
+/android/app/release
+
+# Radiology report generation temp files
+radilogy repoprt generation/rehab_system/temp/

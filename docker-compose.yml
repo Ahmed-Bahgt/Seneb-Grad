@@ -1,0 +1,65 @@
+version: "3.9"
+
+services:
+  # ── PostgreSQL Database ──────────────────────────────────────
+  db:
+    image: postgres:15-alpine
+    container_name: tamren_db
+    restart: always
+    environment:
+      POSTGRES_DB: ${POSTGRES_DB:-tamren_db}
+      POSTGRES_USER: ${POSTGRES_USER:-tamren_user}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    networks:
+      - tamren_network
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${POSTGRES_USER:-tamren_user} -d ${POSTGRES_DB:-tamren_db}"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  # ── FastAPI Backend ──────────────────────────────────────────
+  backend:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: tamren_backend
+    restart: always
+    environment:
+      DATABASE_URL: postgresql://${POSTGRES_USER:-tamren_user}:${POSTGRES_PASSWORD}@db:5432/${POSTGRES_DB:-tamren_db}
+      SECRET_KEY: ${SECRET_KEY}
+      GEMINI_API_KEY: ${GEMINI_API_KEY}
+      OPENROUTER_API_KEY: ${OPENROUTER_API_KEY}
+    depends_on:
+      db:
+        condition: service_healthy
+    networks:
+      - tamren_network
+    volumes:
+      - backend_temp:/app/custom_backend/temp
+      - backend_charts:/app/custom_backend/temp_charts
+
+  # ── Nginx Reverse Proxy ──────────────────────────────────────
+  nginx:
+    image: nginx:alpine
+    container_name: tamren_nginx
+    restart: always
+    ports:
+      - "80:80"
+    volumes:
+      - ./nginx/nginx.conf:/etc/nginx/conf.d/default.conf:ro
+    depends_on:
+      - backend
+    networks:
+      - tamren_network
+
+volumes:
+  postgres_data:
+  backend_temp:
+  backend_charts:
+
+networks:
+  tamren_network:
+    driver: bridge

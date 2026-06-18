@@ -1,0 +1,163 @@
+TITLE: Osteoarthritis Knee Physical Therapy Protocol
+SOURCE: PubMed Central (PMC13130717)
+==================================================
+
+Fear of falling (FOF) is a phenomenon prevalent among older adults associated with adverse outcomes, including reduced mental and physical health, decreased quality of life, and an overall reduction in social participation. Based on cross-sectional and longitudinal studies, recent reviews have provided information on the prevalence of FOF and its association with different health outcomes. To gain a deeper understanding of factors relevant to interventions to prevent or reduce FOF, this review goes beyond previous evidence syntheses by focusing on psychosocial factors that are longitudinally associated with FOF. The objective of the review is to provide an overview on evidence levels of psychosocial factors assumed to be longitudinally associated with FOF.
+
+Studies examining associations between psychosocial factors (predictors) and FOF (outcome) longitudinally were included. Cochrane CENTRAL, Embase, Scopus, and Web of Science were searched up to October 25, 2025. An ordinal rating scheme was used for data synthesis to assess beyond sociodemographic variables and other psychosocial factors. A modified version of the Newcastle–Ottawa scale was employed to evaluate study quality.
+
+The evidence base remained weak for psychosocial factors other than depressive symptoms. Further longitudinal research is needed on the role of psychosocial factors for FOF. Such studies enlarge the evidence base for factors identified in this review and should include additional factors (e.g., loneliness). Our findings highlight the need for further research on the relationship between depressive symptoms and FOF for the development of effective interventions.
+
+The online version contains supplementary material available at 10.1186/s12877-026-07463-1.
+
+Open Access funding enabled and organized by Projekt DEAL.
+
+Fear of falling (FOF) is a psychological construct that was initially described as a phobic reaction to standing or walking after a fall, called ‘ptophobia’ [
+
+In a systematic review of 153 studies on older adults, Xiong et al. [
+
+The objective of this systematic review is therefore to present a comprehensive overview of psychosocial risk and protective factors that are longitudinally associated with FOF. The following research questions were addressed in the review:
+
+Which psychosocial factors are longitudinally examined in relation to FOF?
+
+Which psychosocial factors are longitudinally associated with FOF in older adults?
+
+What is the level of evidence for specific psychosocial factors associated with FOF in older adults?
+
+To what extent do associations between specific psychosocial factors and FOF demonstrate incremental validity of these factors beyond (1) sociodemographic and (2) other psychosocial factors?
+
+The systematic review is reported in line with the PRISMA guidelines [
+
+The search was conducted on November 18, 2023, and lastly updated on October 25, 2025, using six electronic databases selected for their relevance to the research question (i.e., APA PsycNET, CINAHL, Cochrane CENTRAL, Embase, Scopus, and Web of Science). The search terms comprised four clusters: (1) population (e.g., "older adults" OR "old* people" OR "aging"); (2) exposure (e.g., "fear AND falling" OR FOF OR "fall-efficacy"); (3) psychosocial factor (e.g., factor* OR predict* OR correlate*); and (4) study design (e.g., longitudinal OR "long-term" OR wave OR "follow-up"). MeSH/Emtree terms were used where applicable. The terms within each cluster were connected using the Boolean operator OR, and the clusters were linked using the operator AND. The full search strategy for each database is presented in the Supplementary Material 2. The electronic database search was amended on July 15, 2024, by a manual search in the reference lists of the included primary studies and related systematic reviews [
+
+The studies included were required to examine a population of older adults aged 65 or older living in a private household, regardless of the subjects’ physical and mental health status, gender, geographic location, ethnicity, and nationality. The decision to concentrate on community-dwelling older adults was made because older adults who are living in residential care facilities or nursing homes potentially differ in many ways from those living in private households, which in consequence affects the relationship between psychosocial factors and FOF. In particular, older adults in residential care facilities or nursing homes clearly differ in their age, physical and cognitive health, accompanied by heightened care requirements, frailty [
+
+The main focus is the association of a variety of psychosocial factors and FOF, whereby FOF represents the outcome variable. Outcome operationalizations were not defined in advance.
+
+The term “psychosocial factors” as used in the context of this review includes those factors relating to psychological factors (i.e., depressive symptoms) as well as social factors such as social support, social integration, or social activities.
+
+Studies were excluded if the psychosocial factors were not treated as independent variables/predictors
+
+A suitable data extraction sheet was developed for the purpose of this review. The data from the primary studies included were extracted by one reviewer (LJ) and checked by a second (MG). Extracted information included characteristics of the sample, study design, the assessment of FOF, information on psychosocial factors and their assessment, as well as information on statistical models employed to examine the link between psychosocial factors and FOF. Moreover, the data extraction sheet included the rating scheme developed to assess the predictive value of psychosocial factors (see [
+
+The quality of primary studies was examined as an indicator of the potential risk of bias. This was done by employing a modified version of the Newcastle–Ottawa Scale (NOS;
+
+To examine the predictive value of psychosocial factors for FOF outcomes, we adapted a rating scheme that was recently developed to assess the predictive value of resilience factors for mental responses to stress [
+
+Evidence levels ranging from + + + (= most favorable level of evidence for the respective psychosocial factor from a single study, i.e., the respective psychosocial factor showed incremental validity beyond other psychosocial factors with the highest level of control for other variables) to --- (= least favorable level of evidence for the respective psychosocial factor from a single study, i.e., there is evidence for the respective psychosocial factor being associated with higher levels of FOF with the highest level of control for other variables)
+
+In cases where coding in primary studies was inverse, that is, higher scores indicated lower levels of the respective psychosocial factor (e.g., poor social support), the respective coding was inverted for our rating scheme in a way that higher scores indicated higher levels of the respective psychosocial factor
+
+The synthesis of findings across studies is challenging as single factors are examined in heterogeneous regression models, including different types and numbers of predictor variables, with low-between study homogeneity of predictor variables. Thus, standard meta-analysis would risk producing biased results [
+
+Ratings were conducted for each psychosocial factor and its association with FOF. The model with the highest level of control (i.e., including the largest number of control and confounding variables) was used for this purpose, while other models were only examined for qualitative synthesis. Ratings were then categorized into three levels of evidence (see Table
+
+In cases where primary studies identified null effects (i.e., non-significant) for the association of the psychosocial factor and FOF, a distinction was made as to whether the null effect was observed without control of any other variable (o), with control of sociodemographic variables (oo), or when both sociodemographic variables
+
+The search of the databases returned 2,675 hits. Of these, 893 were removed as duplicates. The remaining 1,782 records underwent initial screening at the title and abstract level, after which 53 records were subjected to examination at the full-text level. Following the exclusion of 37 records, a total of 16 studies were included in our synthesis (see Fig.
+
+Flowchart in accordance with the Preferred Reporting Items for Systematic Reviews and Meta-Analyses (PRISMA) guidelines [
+
+The sample sizes of primary studies ranged from 255 to 9,060 participants at baseline, with a total of 30,724 participants across all studies. The age range was 65–98 years. Furthermore, the proportion of female participants ranged from 35.1% to 100%. The majority of studies were conducted in the US [
+
+A total of 14 studies were found to be population-based, one study used a convenience sample, and one study used a community-based sample. Fourteen studies focused on community-dwelling older adults; the majority examined both genders/sexes, and two studies included female participants only. Another study examined community-dwelling older adults who had experienced a fall before the baseline assessment and during the follow-up period. Finally, one study included exclusively older people suffering from Parkinson’s disease.
+
+The attrition rate between baseline and follow-up assessments was reported in six out of 16 studies, with values ranging from 11.8% to 53.1%.
+
+To measure FOF, one study used the Falls Efficacy Scale-International [
+
+All studies employed different types of regression-based models for studying the link between psychosocial factors and FOF. The majority of the studies (
+
+The included studies adjusted for a range of covariates, which can be categorized into sociodemographic factors and FOF-related variables. The most frequently controlled sociodemographic variables included age (
+
+Community-dwelling people reporting a fall at baseline and follow-up,
+
+Overall, study quality as indicated by the modified NOS was low to moderate, with a median quality score of 5 (
+
+Quality appraisal of the primary studies included. Results of the study quality assessment conducted using the modified version of the Newcastle–Ottawa Scale [
+
+The following findings address research questions 2 to 4, that is, the psychosocial factors longitudinally associated with FOF in older adults, the level of evidence for these factors, as well as their incremental validity beyond sociodemographic and other psychosocial factors.
+
+Overall, a total of 32 effect estimates were reported across 16 primary studies (see Fig.
+
+Evidence ratings per psychosocial factor. Evidence rating per psychosocial factor and its association with FOF. The letters indicate the operationalization of the outcome (Onset of FOF, Persistent FOF, or Changes in FOF), and colors represent the quality of the study for the current effect estimate (e.g., 4 effect estimates reported a link between depressive symptoms and the onset of FOF, while one effect estimate showed an association between depressive symptoms and persistence of FOF. The risk of bias in these studies was moderate for 5 effect estimates and high for 2 effect estimates). Evidence levels range from + + + (= most favorable level of evidence for the respective psychosocial factor from a single study, i.e., the respective psychosocial factor showed incremental validity of
+
+The predominant focus of analysis was the relationship between depressive symptoms and FOF. The majority of these studies (
+
+In addition, studies considering the persistence of FOF (
+
+The role of anxiety symptoms for FOF was examined in two studies, one of which analyzed the relationship to the onset of FOF [
+
+One study examined symptom burden and its relation to FOF at 1-year follow-up, revealing that higher symptom burden scores were linked to increased odds of FOF at 1-year follow-up after controlling for other psychosocial factors and sociodemographic variables (---; OR = 1.16, 95% CI [1.12; 1.20]; [
+
+Furthermore, three studies examined the association between social activities and FOF. Social activity focused on changes in social involvement from baseline to follow-up. Findings derived from Cox proportional-hazards models showed that a reduction in social activities was linked to a higher hazard of acquiring FOF across an 11-year follow-up period (---; HR = 1.81,
+
+Two studies examined the relationship between activity level and FOF, with activity level being operationalized as self-reported restrictions of activities within the last year
+
+In addition, two studies reported information on the link between social support and FOF. There was no significant direction for the odds of developing FOF depending on ‘having someone to count on’ (OR = 1.25; 95% CI [0.90; 1.74]) and ‘the amount of friends seen monthly’ (OR = 0.98; 95% CI [0.95; 1.02]), both controlling for sociodemographic variables and other psychosocial factors (ooo; [
+
+Another study investigated the relationship between subjective age and the onset of FOF. For assessing subjective age, participants were asked to report what age they felt most of the time during the last month. As common in studies on felt age, a proportional discrepancy score was calculated ([felt age minus actual age]/actual age) to measure subjective age. The findings indicate that higher subjective age was associated with increased odds of developing FOF, after controlling for other psychosocial factors and sociodemographic variables (---; OR = 1.24; 95% CI [1.08; 1.42]; [
+
+One study examined the association between social cohesion and the onset of FOF. Social cohesion was measured using a questionnaire comprising three questions relating to the extent of cohesion and solidarity within the community. Higher social cohesion was found to be protective against developing FOF above and beyond other psychosocial factors and sociodemographic variables (+ + +; OR = 0.82; 95% CI [0.71; 0.95]; [
+
+The same study investigated the relationship between reciprocity and the onset of FOF. Reciprocity was measured using three questions to report the extent of support and care received from others, which was not associated with developing FOF after controlling for psychosocial factors and sociodemographic variables (ooo; OR = 1.05; 95% CI [0.62; 1.78]; [
+
+This systematic review is the first to examine the longitudinal association between psychosocial factors and fear of falling (FOF) in older adults. The study aimed at identifying (1) which psychosocial factors were longitudinally examined in relation to FOF, (2) which psychosocial factors were longitudinally associated with FOF, (3) the level of evidence for specific psychosocial factors contributing to FOF, and (4) the extent to which the association between the specific psychosocial factor and FOF demonstrated incremental validity beyond sociodemographic variables and other psychosocial factors.
+
+A total of 16 studies with 30,724 participants could be included. Overall, 14 different psychosocial factors were examined across primary studies (i.e., depressive and anxiety symptoms, positive and negative affect, self-efficacy, symptom burden, social activity, social participation, activity level, subjective age, social and emotional support, social cohesion, reciprocity). The present studies pursued three distinct approaches to investigating FOF as an outcome by considering either the onset of FOF (
+
+The evidence rating indicated associations between higher depressive symptoms, anxiety symptoms, negative affect, symptom burden, lower social activity, higher subjective age, and less emotional support with FOF – that is, a greater risk for the onset and the persistence of FOF. In contrast, the studies included suggested that positive affect, self-efficacy, social support, and social cohesion were associated with lower FOF – that is, a lower risk for the onset and persistence of FOF.
+
+Depressive symptoms were the most often examined psychosocial factor, showing a higher risk for FOF or increased levels of FOF in individuals with more severe depressive symptoms. However, findings were heterogeneous across primary studies. While four effect estimates showed a longitudinal association of depressive symptoms with FOF above and beyond other psychosocial factors and sociodemographic variables, four effect estimates showed this association only when controlling for sociodemographic variables and became insignificant when other variables were included. Finally, one effect estimate suggested no longitudinal association between depressive symptoms and FOF. These longitudinal findings differ from the results of a large number of cross-sectional studies summarized in previous systematic reviews by MacKay et al. [
+
+Less clear is the relationship between anxiety symptoms and FOF, which was examined longitudinally by only two studies of which one found anxiety to be unrelated to the onset of FOF even without controlling for covariates [
+
+The weak longitudinal association between anxiety symptoms and the onset of FOF might be explained by the conceptual overlap between these factors and their similar characteristics, like anxious cognitions and avoidance behavior [
+
+Similarly, the association between low activity levels and FOF is less clear. Whereas one study observed no association between social activity or activity level and the onset of FOF when controlling for age and gender [
+
+One study found a surprising association between increased family contact and higher odds of the onset of FOF [
+
+With respect to the third research question on the level of evidence for specific psychosocial factors, the extant literature on longitudinal relationships between psychosocial factors and FOF provides little evidence. As shown in the results, the relationship between depressive symptoms and FOF has been the most frequently investigated, but with inconsistent results. In contrast, only a small number of effect estimates were available for the other psychosocial factors. The quality of studies is further limited by risks of bias that range from moderate to high, which also limits the evidence of the findings.
+
+Regarding the fourth research question, incremental validity beyond sociodemographic variables and other psychosocial factors was identified most frequently (seven effect estimates) for the association between depressive symptoms and FOF. Incremental validity was also identified for the relationship between anxiety symptoms, symptom burden, social activity, activity level, subjective age, and FOF. However, given the inconclusive nature of the findings due to the paucity of evidence, it is difficult to draw definitive conclusions from these findings. To modify future interventions to reduce FOF, these findings could indicate that it may be worthwhile to further investigate the link with depressive symptoms to include it in the evidence-based interventions.
+
+The results of our review should be interpreted in light of their limitations. First, only 16 studies investigated longitudinal relationships between psychosocial factors and FOF in older adults and thus met the inclusion criteria. Due to the limited evidence, it is difficult to derive conclusions about the association of specific psychosocial factors and different FOF outcome types (e.g., onset, persistence, or changes of FOF over time).
+
+Second, a rating scheme was used to compare the levels of evidence for the different psychosocial factors. This approach was chosen due to the large methodological heterogeneity between studies (i.e., number and types of psychosocial factors examined) that prohibited a meta-analysis based on odds ratios. In accordance with recommendations of the Cochrane Collaboration [
+
+Third, further limitations result from characteristics of the primary studies included and their low to moderate quality. An important component of the quality of longitudinal studies is the documentation of losses to follow-up. In our body of evidence, this has only been reported in three studies, with only one study providing information on differences between responders and those who were lost to follow-up. This lack of information may lead to substantially biased results. Furthermore, the absence of power analysis in the respective studies may have limited the validity and generalizability of the results. Finally, in research on FOF, the Falls Efficacy Scale [
+
+The current systematic review showed that there is a limited body of research on the longitudinal relationship between psychosocial factors and FOF. Previous systematic reviews [
+
+Therefore, further longitudinal research is required in the area of psychosocial factors. This review has illustrated that longitudinal associations with FOF have not been examined for a large number of psychosocial factors. Studies based on cross-sectional analyses suggested, for example, that higher levels of FOF are also linked with perceived stress and loneliness, and that lower levels of FOF are related to higher levels of life satisfaction, optimism, self-efficacy, self-esteem, and self-regulation [
+
+The present studies primarily investigated longitudinal associations, and models ought to be validated by prediction studies in a subsequent step. Since significant associations between variables do not connote high predictivity [
+
+It has to be emphasized that causal explanation and prediction are distinct concepts that require different statistical approaches. Nevertheless, rigorous terminology bears implications for both prediction and explanation. Thus, when investigating onset, persistence, or change of FOF, it should be noted that the aforementioned terms represent broad concepts which need to be defined more narrowly based on measures of occurrence to which they refer, e.g., incidence or prevalence.
+
+When aiming to explain the onset of FOF, incidence or incidence rates of FOF are better suited to explain potential causal pathways for FOF. Hence, further research should seek to address more precisely which factors play a role in the development of FOF by using established terminology and its underlying concepts. Incidence here is referred to as “the number of new cases […] divided by the person-time over the period” [
+
+Additionally, risk differences or adjusted attributable risk could also be used to estimate whether and what additional relative proportion of the prevalence of fear of falling can be explained by specific binary exposures [
+
+The FES-I questionnaire offers a good instrument to monitor changes in fear of falling across time without arbitrarily categorizing subjects into groups, leaving as much information as possible, allowing one to further explain and predict possible changes in the FES-I score with the aforementioned factors. Subsequently, this may facilitate deriving candidate features for interventions that are modifiable and may help to reduce fear of falling.
+
+We have identified other key methodological aspects that should be considered in future research. For example, the handling of missing data was often not sufficiently taken into account across the studies included and should be addressed adequately when analyzing data, since analysis of complete cases or listwise deletion is a major risk of bias when data is not missing completely at random [
+
+When communicating results, odds ratios frequently have been interpreted as risk ratios which is a common problem. Yet, odds ratios will approximate the risk ratio only if the rare disease assumption is met [
+
+The extant findings concerning the relationships between psychosocial factors and FOF demonstrate that there is not yet sufficient evidence to derive recommendations for interventions. In order to optimize existing interventions to reduce FOF by addressing psychosocial factors, further research is needed to understand the pathways by which psychosocial factors may impact FOF outcomes.
+
+Nevertheless, analyses focusing on study and intervention characteristics offer preliminary indications of factors associated with reduced FOF. A meta-analysis by Kruisbrink et al. [
+
+This systematic review showed high between-study heterogeneity in terms of study samples, FOF measures, psychosocial factors and FOF outcomes. Furthermore, studies reported different results, even if they examined the same psychosocial factor. Future research should therefore provide more evidence on the relationship between psychosocial factors and FOF, examining a broader range of psychosocial factors (e.g., loneliness, views on aging, perceived stress, self-esteem), using standardized instruments for the assessment of FOF (e.g., the FES-I). Such studies should particularly focus on mediating psychological, physiological, and behavioral mechanisms linking psychosocial factors with FOF.
+
+For the purpose of this review, we use the terms predictor or predict to refer to an independent variable in regression models as this is commonly done in psychological research. The term does not imply a causal relationship between the psychosocial factor and the outcome fear of falling.
+
+Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.
+
+LJ: conceptualization (equal), formal analysis (lead), methodology (supporting), writing – original draft (lead), MG: formal analysis (supporting), methodology (supporting), writing – review and editing (equal) SKS: conceptualization (equal), methodology (lead), writing – review and editing (equal), supervision (equal) SW: conceptualization (equal), resources (lead), supervision (equal), writing – review and editing (equal), funding acquisition (lead).
+
+Open Access funding enabled and organized by Projekt DEAL. No third-party funding. Support for the publication fee was provided by University of Greifswald's publication fund.
+
+The material used for this review, which consists of the data extracted from included studies and the modified NOS, is provided in the Open Science Framework (OSF): (

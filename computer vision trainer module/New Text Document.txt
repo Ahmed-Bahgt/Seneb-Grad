@@ -1,0 +1,4 @@
+for feedback tensors.
+W0000 00:00:1776627482.107983   30208 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+c:\MYWork\Grad\Grad_test6\helpers\utils.py:112: RuntimeWarning: invalid value encountered in scalar divide
+  cos_theta = (np.dot(p1_ref,p2_ref)) / (1.0 * np.linalg.norm(p1_ref) * np.linalg.norm(p2_ref))

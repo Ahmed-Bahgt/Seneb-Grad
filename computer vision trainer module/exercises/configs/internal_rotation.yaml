@@ -1,0 +1,57 @@
+name: Internal Rotation
+description: Stand facing camera, elbow tucked at side, rotate forearm inward across body
+view: front
+inactive_thresh: 15.0
+arm_lock: true
+feedback_persistence: frame
+
+visibility_check:
+  indices: [0, 11, 12, 13, 14, 15, 16]
+  error_msg: "(Upper body and arms not fully visible)"
+
+# Rotation ratio = (wrist_x - elbow_x) / shoulder_width
+# s1: wrist outside elbow (rest), s3: wrist crossed torso (peak)
+# Dead zone [-0.05, -0.12] prevents natural arm-hang micro-movement from triggering s2
+states:
+  s1: [-0.05, 1.0]
+  s2: [-0.25, -0.12]
+  s3: [-1.0, -0.25]
+
+primary_measurement:
+  type: rotation_ratio
+
+form_checks:
+  - id: ELBOW_FLARE
+    label_en: ELBOW LEFT YOUR SIDE
+    label_ar: الكوع بعيد عن جانبك
+    color: [255, 80, 80]
+    display_y: 215
+    sound: elbow_left_side
+    measurement:
+      type: elbow_flare_ratio
+    condition: "value > 0.4"
+    skip_in_states: [s1]
+    affects_rep: true
+
+  - id: WRIST_ALIGNMENT
+    label_en: KEEP FOREARM LEVEL
+    label_ar: حافظ على ساعدك أفقياً
+    color: [255, 80, 80]
+    display_y: 170
+    sound: keep_forearm_level
+    measurement:
+      type: wrist_y_diff
+    condition: "value > 0.22"
+    skip_in_states: [s1]
+    affects_rep: true
+
+  - id: TORSO_TWIST
+    label_en: "DON'T TWIST TORSO"
+    label_ar: لا تلوي جذعك
+    color: [0, 255, 255]
+    display_y: 125
+    sound: dont_twist_torso
+    measurement:
+      type: ratio_vs_baseline
+    condition: "value < 0.85"
+    affects_rep: false

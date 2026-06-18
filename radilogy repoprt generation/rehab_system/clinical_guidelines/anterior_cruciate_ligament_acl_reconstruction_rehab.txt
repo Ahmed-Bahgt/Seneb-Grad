@@ -1,0 +1,83 @@
+TITLE: Anterior Cruciate Ligament (ACL) Reconstruction Rehab
+SOURCE: PubMed Central (PMC13130561)
+==================================================
+
+The arthroscopic posterior transseptal approach (TSA) allows improved visualization of the posterior compartment of the knee joint. However, it can be associated with increased risks particularly regarding potential injury to the neurovascular bundle or postoperative scarring, which may contribute to extension deficits of the knee joint. We hypothesized that the modified TSA does not increase the risk of postoperative extension deficit or neurovascular complications while providing safe access to the posterior compartment.
+
+This retrospective cohort study analyzed prospectively collected data from patients who underwent arthroscopic knee surgery via TSA between 01/2018 and 02/2024. The primary outcome measure was the occurrence of perioperative complications. The secondary outcome measures were postoperative complications, postoperative range of motion compared with the contralateral (control) knee, and functional outcomes measured by the subjective International Knee Documentation Committee (IKDC) score and Tegner score.
+
+A total of 82 patients were eligible for the study. No perioperative complications were observed. 48 patients (10 females, 38 males; mean age, 37.8 ± 13.5 years) completed follow-up and were available for secondary outcome analysis at a mean follow-up of 45.9 ± 20.7 months. Indications for the TSA included posterior and/or posterolateral knee instability (
+
+The indirect posterior transseptal approach is a safe arthroscopic technique that can be associated with moderate clinical outcomes depending on the underlying pathology. The modified TSA appears to be safe when performed by experienced surgeons and was not associated with neurovascular complications in this cohort.
+
+Advances in arthroscopic techniques over the past decades have led to an expansion of the range of knee pathologies that can be treated via knee arthroscopy [
+
+In addition to the advantages of the posterior transseptal approach in terms of better visualization and access to posterior structures, the establishment of the TSA carries certain risks. Owing to its proximity to critical posterior neurovascular structures the risk of iatrogenic damage particularly to the popliteal and middle geniculate arteries has been described [
+
+The purpose of this study was therefore to evaluate the safety of the modified arthroscopic TSA and clinical outcomes in patients undergoing surgery for posterior knee pathologies, with a particular focus on neurovascular complications and postoperative range of motion (ROM). We therefore hypothesized that the modified arthroscopic TSA does not increase the risk of postoperative extension deficit or neurovascular complications while providing safe access to the posterior compartment.
+
+This retrospective study analyzed prospectively collected data from patients who underwent arthroscopic knee surgery at a single center via TSA between January 2018 and February 2024. Postoperative assessment of the outcome parameters and ROM was performed in clinical follow-up examinations. Knee range of motion was measured via long-arm goniometer following standardized goniometric techniques [
+
+Patients were included if they underwent surgical intervention via TSA for PCL injury, posterior compartment synovectomy in cases of TGCT, treatment of posterior meniscal lesions or posterolateral rotatory instabilities (PLRIs), with a minimum follow-up of 24 months. The exclusion criteria were a diagnosis of arthrofibrosis of the knee joint prior to TSA, congenital or posttraumatic deformities of the knee joint or total knee replacement (TKA).
+
+The primary outcome measure was the occurrence of perioperative complications. The secondary outcomes included postoperative complications, range of motion (ROM), and validated patient-reported outcome measures (PROMs), including the International Knee Documentation Committee (IKDC) [
+
+All surgeries were performed by fellowship-trained senior orthopedic surgeons (KF, MB, MK, JF) with special expertise in complex knee surgery [
+
+Arthroscopic view into the posteromedial recussus of a right knee. Through a transcondylar view into the posteromedial recessus, the posteromedial joint capsule (PM) is directly visualized, and a needle is used to find the ideal position for the posteromedial portal (
+
+The next few steps were carried out to allow for precise positioning of the transseptal portal. With the RF placed directly adjacent to the septum (Fig.
+
+Determination of the posterior transseptal approach position in a right knee. Through the transcondylar view the posterior septum (PS) is directly visualized (
+
+Arthroscopic development of the posterior transseptal portal in a right knee. Under transcondylar visualization of the posterior septum, the radiofrequency ablation device (RF) is advanced (
+
+All patients followed a standardized postoperative rehabilitation protocol adapted to the underlying pathology. For patients with PCL and/or PLC involvement, a brace (Jack PCL Brace; Albrecht, Bernau am Chiemsee, Germany) with posterior support to prevent hyperextension was used for 12 weeks. Flexion was limited to 45° during the first 2 postoperative weeks, increased to 60° in weeks 3–4, and increased to 90° in weeks 5–6. Standardized physiotherapy was started 48 h after surgery. Patients treated for TGCTs had no postoperative restriction of range of motion.
+
+Patient demographics and baseline characteristics were summarized descriptively. Continuous variables were reported as mean and standard deviation (SD) as well as median. Categorical variables were presented as absolute numbers and percentages.
+
+Normal distribution was tested via the Shapiro–Wilk test. Differences in nonnormally distributed data were analyzed via the Wilcoxon signed-rank test. Mean intraindividual differences were reported with corresponding 95% confidence intervals. The presence of an extension deficit was analyzed as a binary paired variable and compared between sides via McNemar’s exact test. Correlations between ROM parameters and PROMs were calculated via Spearman’s rank correlation coefficient due to non-normal data distribution. All statistical tests were two-tailed, and the statistical significance level was set to
+
+Institutional Review Board approval was obtained (reference number: blinded for submission) and written informed consent was provided by all participating patients. The study was conducted in accordance with the Good Clinical Practice guidelines and the recommendations of the Declaration of Helsinki.
+
+A total of 82 patients underwent arthroscopic knee surgery via the TSA during the study period. No perioperative complications, such as injury to neurovascular structures, were observed in this cohort. After the application of the predefined exclusion criteria, 48 patients were included in the analysis of secondary outcomes. The baseline demographic and surgical indications of this cohort are presented in Table
+
+Flowchart of the studied population. TSA, posterior transseptal approach; n, number of patients
+
+Baseline demographic characteristics and surgical indications of the secondary outcome cohort
+
+Data are presented as the mean ± standard deviation or frequency (%) unless otherwise indicated. N, number of patients; y, years; mo, months; BMI, body mass index; PCL, posterior cruciate ligament; PLC, posterolateral corner; TGCT, tenosynovial giant cell tumor. *Multiple indications per patient were possible; therefore, percentages do not add up to 100%
+
+At the final follow-up, there was no statistically significant difference in knee extension between the operated and contralateral knees (
+
+Data are presented as the mean ± standard deviation or number (%) unless otherwise indicated. SSD denotes the paired difference (operated − contralateral). Paired comparisons were performed via the Wilcoxon signed-rank test. *Two patients were not clinically re-examined owing to geographic distance and were therefore not included in the clinical range of motion analyses. ROM, range of motion; SSD, side-to-side difference; N, number of paired observations; CI, confidence interval; deg, degrees
+
+At the final follow-up, patient-reported outcome measures revealed a mean IKDC score of 77.6 ± 17.4 and a mean Tegner activity level of 4.5 ± 1.7 (medians: 79.5 [62.0–92.2] and 4 [3.8–5.0], respectively)
+
+Flexion-related parameters of the operated knee and SSD flexion differences showed moderate positive correlations with the IKDC score, whereas no significant correlations were observed with the Tegner activity score (Table
+
+Associations between knee range of motion and patient-reported outcomes
+
+Data are presented as Spearman’s rank correlation coefficients (ρ) and two-sided p values. Knee flexion of the operated knee and SSD flexion correlated with the IKDC score. Spearman’s correlation was used because of nonnormal data distributions and the ordinal nature of the Tegner activity scale. ROM, range of motion; IKDC, International Knee Documentation Committee; SSD, side-to-side difference (operated − contralateral); deg, degrees
+
+The most important finding of this study was that the indirect modified posterior transseptal approach appears to be a safe surgical technique with a low perioperative complication rate. We found no significant loss of extension in the operated knees compared with the contralateral side, whereas there was a slight loss of flexion in the operated knees. Patient-reported outcome measures revealed moderate clinical outcomes, which correlated with the knee flexion deficits.
+
+The posterior transseptal approach was first described by Kim et al. in 1997 [
+
+Pathogenetically, the TGCT is also known to decrease the ROM due to the proliferation of synovial-lined tissue [
+
+With regard to the functional outcomes, we found good overall postoperative PROMs in our study cohort. Jacobsen et al. reported comparable results for the Tegner activity score in a series of patients who underwent anatomic PLC reconstruction [
+
+This study has several limitations. The retrospective design of the analysis limits the ability to draw causal inferences and is susceptible to selection and information bias. Furthermore, the study cohort is comparably small, and a relatively high loss to follow-up rate must be acknowledged. Furthermore, the lack of preoperative PROMs and ROM analysis limits the interpretability of the postoperative outcomes as the effect of surgery could not be quantified. In this regard, the study cohort comprised various surgical indications for the TSA, which caused a certain heterogeneity. This may have reduced the statistical power, precluded subgroup analysis, and complicated the attribution of differences in postoperative range of motion specifically to the TSA. In addition, a potential surgeon-related bias must be considered, as the procedures were performed by experienced surgeons at a specialized center, which may limit the generalizability of the findings. Finally, the absence of a control group treated with an alternative surgical approach limits the scope for comparative interpretation.
+
+The modified indirect posterior transseptal approach appears to be a safe technique for posterior arthroscopic knee surgery when performed by experienced surgeons. Crucially, our findings suggest that, regardless of the underlying indication, the use of the posterior transseptal approach is not associated with a clinically relevant loss of knee extension, whereas a certain loss of flexion may occur depending on the underlying pathology.
+
+Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.
+
+Study conceptualization (JF, CA, MK), Methodology (CA, GG, SL, AK, JF), Data curation (CA, GG, SL), Validation (all authors), Formal analysis (CA, JF, GG), Manuscript draft preparation (JF, CA), Review and editing (all authors), Supervision (JF, MK, MTB, KHF), Project administration (JF).
+
+The datasets used and/or analyzed during the current study are available from the corresponding author on reasonable request.
+
+Ethics approval for this study was obtained from the Institutional Review Board of the Ethics Committee of the Hamburg Medical Association (
+
+Matthias Krause and Karl-Heinz Frosch receive consultancy fees from Arthrex (Naples, FL, USA). Jannik Frings receives consultancy fees from Conmed (Largo, FL, USA).

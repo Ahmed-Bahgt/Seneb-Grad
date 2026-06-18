@@ -1,0 +1,24 @@
+rules_version = '2';
+service firebase.storage {
+  match /b/{bucket}/o {
+    function signedIn() {
+      return request.auth != null;
+    }
+
+    function patientAssignedToDoctor(patientId, doctorId) {
+      return firestore.get(
+        /databases/(default)/documents/patients/$(patientId)
+      ).data.assignedDoctorId == doctorId;
+    }
+
+    match /doctor_patient_chats/{doctorId}/{patientId}/{fileName} {
+      allow read, write: if signedIn() &&
+        (request.auth.uid == doctorId || request.auth.uid == patientId) &&
+        patientAssignedToDoctor(patientId, doctorId);
+    }
+
+    match /{allPaths=**} {
+      allow read, write: if false;
+    }
+  }
+}

@@ -1,0 +1,11 @@
+numpy
+opencv-python-headless
+mediapipe
+altair<5
+streamlit_webrtc
+gTTS
+arabic-reshaper
+python-bidi
+Pillow
+pyyaml
+openai

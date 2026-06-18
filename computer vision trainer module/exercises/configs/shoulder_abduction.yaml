@@ -1,0 +1,70 @@
+name: Resisted Abduction
+description: Stand facing camera, raise both arms out to the side to shoulder level
+view: front
+inactive_thresh: 15.0
+feedback_persistence: frame
+
+visibility_check:
+  indices: [0, 15, 16, 23, 24]
+  error_msg: "(Head, Wrists, or Hips not visible)"
+
+states:
+  s1: [0, 45]
+  s2: [45, 64]
+  s3: [64, 120]
+
+primary_measurement:
+  type: bilateral_avg_angle
+  left: {p1: left_hip, vertex: left_shoulder, p3: left_elbow}
+  right: {p1: right_hip, vertex: right_shoulder, p3: right_elbow}
+
+form_checks:
+  - id: ARMS_TOO_HIGH
+    label_en: ARMS TOO HIGH
+    label_ar: ذراعاك مرتفعتان جداً
+    color: [255, 80, 80]
+    display_y: 215
+    sound: arms_too_high
+    measurement:
+      type: bilateral_max_angle
+      left: {p1: left_hip, vertex: left_shoulder, p3: left_elbow}
+      right: {p1: right_hip, vertex: right_shoulder, p3: right_elbow}
+    condition: "value > 125"
+    affects_rep: true
+
+  - id: ELBOW_BENT
+    label_en: KEEP ARMS STRAIGHT
+    label_ar: حافظ على استقامة ذراعيك
+    color: [0, 255, 255]
+    display_y: 170
+    sound: keep_arms_straight
+    measurement:
+      type: bilateral_min_angle
+      left: {p1: left_shoulder, vertex: left_elbow, p3: left_wrist}
+      right: {p1: right_shoulder, vertex: right_elbow, p3: right_wrist}
+    condition: "value < 140"
+    affects_rep: false
+
+  - id: ASYMMETRY
+    label_en: EVEN YOUR ARMS (LEVEL THEM)
+    label_ar: سوِّ ذراعيك
+    color: [0, 255, 255]
+    display_y: 125
+    sound: level_arms
+    measurement:
+      type: bilateral_diff_angle
+      left: {p1: left_hip, vertex: left_shoulder, p3: left_elbow}
+      right: {p1: right_hip, vertex: right_shoulder, p3: right_elbow}
+    condition: "value > 20"
+    affects_rep: false
+
+  - id: BACK_SWAY
+    label_en: "DON'T SWAY YOUR BACK"
+    label_ar: لا تهتز بظهرك
+    color: [0, 255, 255]
+    display_y: 80
+    sound: dont_sway_back
+    measurement:
+      type: torso_angle
+    condition: "value > 10"
+    affects_rep: false

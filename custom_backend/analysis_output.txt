@@ -1,0 +1,31 @@
+As Seneb Clinical Agent, I have analyzed the provided Physical Therapy session data for Patient ID: **yousef**, performed on **2026-05-16**. Below is a professional medical report based on the **Squat** exercise.
+
+---
+
+### 📋 SUMMARY STATISTICS
+
+*   **Correct Repetitions**: 10
+*   **Incorrect Repetitions**: 2
+*   **Total Repetitions**: 12
+*   **Session Accuracy**: **83.3%**
+
+### ⚠️ ERROR ANALYSIS
+
+Based on the 2 incorrect repetitions during the **Squat** exercise, likely biomechanical errors may include:
+
+*   **Knee Valgus**: Inward collapse of the knees, indicating potential gluteal weakness or adductor dominance.
+*   **Incomplete Range of Motion (ROM)**: Failure to achieve optimal squat depth, potentially due to hip immobility or insufficient quadriceps/gluteal activation.
+*   **Excessive Trunk Flexion**: Forward lean of the torso, potentially straining the lumbar spine and indicating insufficient core stability or posterior chain activation.
+*   **Loss of Neutral Spine**: Lumbar rounding, compromising spinal integrity.
+
+### 🔬 BIOMECHANICAL ANALYSIS
+
+The patient achieved a **Session Accuracy** of **83.3%**. This indicates moderate consistency in maintaining proper form throughout the exercise. While a majority of repetitions were executed correctly, the presence of 2 incorrect repetitions suggests areas for technical refinement and motor control improvement. This falls within the **MODERATE** risk category for form consistency.
+
+### 🏥 DOCTOR'S RECOMMENDATION
+
+Given the **MODERATE** accuracy of **83.3%**, the following recommendation is provided for the next session to enhance Physical Therapy performance:
+
+*   Focus on targeted form drills to address identified biomechanical inefficiencies. Emphasize controlled movement and proprioceptive feedback.
+*   Incorporate exercises to improve **hip mobility**, **core stability**, and **gluteal activation** to mitigate issues such as knee valgus and excessive trunk flexion.
+*   Consider using visual or tactile cues (e.g., mirror, band around knees, box squat) to reinforce proper squat mechanics and consistent **Range of Motion**.

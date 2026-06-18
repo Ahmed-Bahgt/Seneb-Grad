@@ -1,0 +1,67 @@
+name: Squats
+description: Stand sideways to camera, feet shoulder-width apart
+view: side
+offset_thresh: 50.0
+inactive_thresh: 15.0
+feedback_persistence: rep
+
+visibility_check:
+  indices: [0, 27, 28]
+  error_msg: "(Head or Feet not visible)"
+
+states:
+  s1: [0, 30]
+  s2: [35, 65]
+  s3: [70, 95]
+
+primary_measurement:
+  type: vertical_angle
+  p1: hip
+  vertex: knee
+
+form_checks:
+  - id: BEND_BACKWARDS
+    label_en: BEND BACKWARDS
+    label_ar: انحنِ للخلف
+    color: [0, 153, 255]
+    display_y: 215
+    sound: bend_backwards
+    measurement: {type: vertical_angle, p1: shoulder, vertex: hip}
+    condition: "value > 60"
+    affects_rep: false
+
+  - id: BEND_FORWARD
+    label_en: BEND FORWARD
+    label_ar: انحنِ للأمام
+    color: [0, 153, 255]
+    display_y: 215
+    sound: bend_forward
+    measurement: {type: vertical_angle, p1: shoulder, vertex: hip}
+    condition: "value < 10"
+    require_s2_seen: true
+    affects_rep: false
+
+  - id: KNEE_FORWARD
+    label_en: KNEE FALLING OVER TOE
+    label_ar: الركبة تتجاوز إصبع القدم
+    color: [255, 80, 80]
+    display_y: 170
+    sound: knee_over_toe
+    measurement: {type: vertical_angle, p1: knee, vertex: ankle}
+    condition: "value > 45"
+    affects_rep: true
+
+  - id: SQUAT_TOO_DEEP
+    label_en: SQUAT TOO DEEP
+    label_ar: الجلسة عميقة جداً
+    color: [255, 80, 80]
+    display_y: 125
+    sound: squat_too_deep
+    measurement: {type: vertical_angle, p1: hip, vertex: knee}
+    condition: "value > 95"
+    affects_rep: true
+
+lower_hips_hint:
+  measurement: {type: vertical_angle, p1: hip, vertex: knee}
+  condition: "50 < value < 70"
+  require_s2_seen: true

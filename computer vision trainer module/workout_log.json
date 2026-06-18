@@ -1,0 +1,13 @@
+{
+    "exercise": "Dumbbell Lateral Raise",
+    "total_sets_completed": 1,
+    "effective_sets": 0,
+    "total_correct_reps": 2,
+    "total_incorrect_reps": 1,
+    "errors_triggered": [
+        "INCOMPLETE ROM",
+        "TORSO_SWAY_LIMIT",
+        "SYMMETRY_CHECK",
+        "MINIMUM_LIFT_HEIGHT"
+    ]
+}

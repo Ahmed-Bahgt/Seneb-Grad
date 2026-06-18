@@ -1,0 +1,97 @@
+description: 'Stand facing camera, hold a bar in each hand at your sides, raise both
+  arms out to the sides until they are horizontal, then lower back down
+
+  '
+feedback_persistence: frame
+form_checks:
+- affects_rep: false
+  color:
+  - 255
+  - 80
+  - 80
+  condition: value > 10.0
+  display_y: 215
+  id: TORSO_SWAY_LIMIT
+  label_ar: حافظ على استقامة جذعك دون تأرجح
+  label_en: KEEP YOUR TORSO UPRIGHT WITHOUT SWAYING
+  measurement:
+    type: torso_angle
+  sound: incorrect
+- affects_rep: false
+  color:
+  - 0
+  - 255
+  - 255
+  condition: value > 15.0
+  display_y: 170
+  id: SYMMETRY_CHECK
+  label_ar: حافظ على تساوي ارتفاع الذراعين
+  label_en: KEEP BOTH ARMS AT THE SAME HEIGHT
+  measurement:
+    left:
+      p1: left_hip
+      p3: left_wrist
+      vertex: left_shoulder
+    right:
+      p1: right_hip
+      p3: right_wrist
+      vertex: right_shoulder
+    type: bilateral_diff_angle
+  sound: incorrect
+- affects_rep: false
+  color:
+  - 0
+  - 153
+  - 255
+  condition: value < 70.0
+  display_y: 125
+  id: MINIMUM_LIFT_HEIGHT
+  label_ar: ارفع ذراعيك لتصبح موازية للأرض
+  label_en: LIFT ARMS HIGHER TO REACH PARALLEL
+  measurement:
+    left:
+      p1: left_hip
+      p3: left_wrist
+      vertex: left_shoulder
+    right:
+      p1: right_hip
+      p3: right_wrist
+      vertex: right_shoulder
+    type: bilateral_avg_angle
+  sound: incorrect
+inactive_thresh: 15.0
+name: Dumbbell Lateral Raise
+primary_measurement:
+  left:
+    p1: left_hip
+    p3: left_elbow
+    vertex: left_shoulder
+  right:
+    p1: right_hip
+    p3: right_elbow
+    vertex: right_shoulder
+  type: bilateral_avg_angle
+states:
+  s1:
+  - 9.2
+  - 30.8
+  s2:
+  - 30.8
+  - 99.2
+  s3:
+  - 99.2
+  - 120.8
+view: front
+visibility_check:
+  error_msg: Please ensure your full upper body, including shoulders and arms, is
+    in view.
+  indices:
+  - 0
+  - 11
+  - 12
+  - 13
+  - 14
+  - 15
+  - 16
+  - 23
+  - 24

@@ -1,0 +1,91 @@
+TITLE: Hip Arthroplasty Post-Operative Protocol
+SOURCE: PubMed Central (PMC13128775)
+==================================================
+
+Surgeon handedness may influence prosthetic alignment in conventional manual total knee arthroplasty (CM-TKA), but whether robotic assistance mitigates this effect remains unclear. This study investigated whether Mako robot-assisted TKA (MA-TKA) mitigates handedness-related discrepancies in alignment accuracy and perioperative outcomes. This retrospective cohort study included 1160 patients who underwent unilateral TKA performed by three experienced right-handed surgeons. Patients were divided into four groups based on surgical technique and operated side: MA-left (
+
+End-stage knee osteoarthritis is a leading cause of disability in the middle-aged and elderly, imposing a substantial burden on public health systems worldwide. In 2021, an estimated 607 million people—roughly 7.7% of the global population—were living with osteoarthritis [
+
+Total knee arthroplasty (TKA) remains the gold standard for treating end-stage knee osteoarthritis, offering reliable pain relief, improved joint function, and better quality of life. Long‑term success hinges critically on accurate prosthetic alignment. Mounting evidence links postoperative malalignment to increased risks of polyethylene wear, aseptic loosening, and eventual revision—making alignment a core determinant of implant survival [
+
+Achieving optimal alignment in TKA depends on multiple variables, including surgeon experience and patient‑specific anatomy [
+
+Conventional manual TKA (CM‑TKA) relies heavily on visual cues, anatomical landmark recognition, and freehand instrumentation [
+
+The advent of robotic‑assisted platforms, particularly the Mako system, has opened new avenues for improving precision in TKA. By combining preoperative CT‑based three‑dimensional planning with intraoperative haptic guidance, Mako robot‑assisted TKA (MA‑TKA) can potentially reduce errors related to surgeon experience and handedness while enabling more accurate mechanical alignment reconstruction. When paired with a minimally invasive approach, it also aligns well with Enhanced Recovery After Surgery (ERAS) principles [
+
+Against this backdrop, we designed a study to compare MA‑TKA and CM‑TKA performed by right‑handed surgeons on both the dominant (right) and non‑dominant (left) sides. Our primary aim was to determine whether MA‑TKA can mitigate the adverse effects of surgeon handedness on alignment accuracy and perioperative clinical outcomes. We hypothesized that, compared with CM‑TKA, MA‑TKA would significantly reduce handedness‑related discrepancies in both radiographic precision and early postoperative recovery.
+
+This retrospective cohort study was conducted across three hospitals affiliated with a single Chinese medical center, all of which adhered to standardized protocols for serological testing, imaging acquisition, and measurement techniques. The initial screening involved 1257 patients who underwent primary TKA between 2021 and 2025. Inclusion was restricted to patients receiving unilateral TKA for end‑stage knee osteoarthritis. Exclusion criteria comprised: [
+
+Each of the three surgeons is right‑handed and positioned themselves on the ipsilateral side of the operating table relative to the knee being treated. For patients in the MA groups, a preoperative computed tomography (CT) scan of the affected knee was obtained. The resulting DICOM data were imported into Mako Total Knee software to generate a three‑dimensional reconstruction and formulate a patient‑specific preoperative plan. Surgical exposure was accomplished through the modified subvastus approach (MSVA) [
+
+Demographic characteristics were recorded for all participants. Operative duration (skin‑to‑skin), tourniquet time, and length of hospital stay were documented. Hematocrit (Hct) values were measured preoperatively and on postoperative day 1; total blood loss was then calculated using the Gross formula [
+
+All radiographic measurements were performed using GE Healthcare Systems (Chicago, IL, USA). Three orthopedic surgeons participated in a preliminary reliability exercise before independently measuring all radiographic parameters for the entire cohort.
+
+All statistical analyses were performed using SPSS version 26.0 (IBM, Armonk, NY, USA). Continuous data are presented as mean ± standard deviation; categorical data are shown as frequencies and percentages. For normally distributed data with homogeneous variances, one‑way analysis of variance (ANOVA) followed by the least significant difference (LSD) post‑hoc test was used to compare differences among the four groups and for pairwise comparisons. When data were not normally distributed or variances were unequal, the Kruskal–Wallis one‑way ANOVA by ranks was employed. The chi‑square test was applied to categorical variables. A P‑value < 0.05 was considered statistically significant.
+
+A total of 1160 patients were included: 84 in the MA‑left group, 92 in the MA‑right group, 453 in the CM‑left group, and 531 in the CM‑right group. The four groups were well matched with respect to age, sex distribution, body mass index (BMI), American Society of Anesthesiologists (ASA) classification, and Kellgren–Lawrence grade (all
+
+MA, mako-robotic assisted; CM, conventional manual; BMI, body mass index; ASA, American Society of Anesthesiologists; K-L grade, Kellgren–Lawrence grade
+
+Significant intergroup differences were observed for all four clinical endpoints (Table
+
+The bar chart shows the comparison of operative duration, tourniquet duration, hospital stay and blood loss among the four groups of patients
+
+Pairwise comparisons of four groups of clinical data
+
+MA, mako-robotic assisted; CM, conventional manual; mTFA, mechanical tibiofemoral angle; mLDFA, mechanical lateral distal femoral angle; MPTA, medial proximal tibial angle; LTC, lateral tibial component; LFC, lateral femoral component
+
+Taken together, these results indicate that MA‑left surgery prolongs both operative and tourniquet times but still confers advantages in terms of shorter hospital stay and reduced blood loss. MA‑right surgery, while also increasing operative duration relative to CM, does not extend tourniquet time and yields the most favorable profile regarding blood conservation and early discharge.
+
+Preoperative mTFA, mLDFA, MPTA, and LTC values were comparable across all four groups (
+
+Comparison of radiological and osteotomy accuracy among the four groups of patients
+
+MA, mako-robotic assisted; CM, conventional manual; mTFA, mechanical tibiofemoral angle; mLDFA, mechanical lateral distal femoral angle; MPTA, medial proximal tibial angle; LTC, lateral tibial component; LFC, lateral femoral component
+
+The box chart shows the comparison of mTFA, mLDFA, MPTA, LFC and LTC among four groups of patients
+
+Pairwise comparisons of postoperative parameters revealed no differences in mTFA, mLDFA, or MPTA between the two MA groups or between the two CM groups (
+
+Pairwise comparisons of four groups of radiological changes
+
+MA, mako-robotic assisted; CM, conventional manual; mTFA, mechanical tibiofemoral angle; mLDFA, mechanical lateral distal femoral angle; MPTA, medial proximal tibial angle; LTC, lateral tibial component; LFC, lateral femoral component
+
+These findings clearly show that MA‑TKA yields more accurate component alignment than CM‑TKA. Moreover, within the CM approach, the non‑dominant side (left knee) is associated with poorer alignment, particularly in the femoral and tibial component coronal angles—a handedness effect that is mitigated when robotic assistance is used.
+
+This study compared clinical and radiographic outcomes between MA and CM-TKA performed by right‑handed surgeons on both the dominant and non‑dominant sides. The key finding is that MA‑TKA effectively neutralizes the detrimental influence of surgeon handedness on prosthetic alignment, achieving homogeneous accuracy regardless of which knee is operated. Although MA‑TKA was associated with slightly longer operative times—especially on the non‑dominant side—it significantly reduced perioperative blood loss and shortened hospital stay, consistent with the goals of enhanced recovery.
+
+When a right‑handed surgeon operates on the left knee, the combination of reduced fine‑motor dexterity, altered spatial orientation, and a less ergonomic working position can compromise the precision of bone cuts. CM-TKA, which depends on visual estimation and manual instrument guidance, lacks the quantitative feedback needed to counteract such variability [
+
+First, the synergy of a minimally invasive approach with robotic precision translates into tangible clinical benefits. All patients in this series underwent surgery through the MSVA [
+
+Second, quantitative precision overcomes subjective judgment. MA‑TKA shifts the procedure from an experience‑based, largely subjective task to one governed by predetermined angular targets and haptically constrained resections. Numerous investigations have confirmed that MA‑TKA improves mechanical alignment and component positioning relative to conventional techniques [
+
+Third, improve the homogeneity of surgery and reduce the differences in handedness. Handedness is an intrinsic human trait whose influence on surgical precision cannot be completely erased by experience alone [
+
+Fourth, the benefit appears to be universal across joint types. Kong et al. [
+
+Several limitations should be acknowledged. First, this was a retrospective study from a single center, which may introduce selection bias. Second, only right‑handed surgeons were included; whether the same conclusions apply to left‑handed operators remains to be determined. Third, all surgeries were performed by three highly experienced surgeons, so the results may not be generalizable to less experienced practitioners. Fourth, we focused on perioperative metrics and short‑term radiographic outcomes; we did not collect patient‑reported outcome measures such as functional scores or satisfaction, nor do we have mid‑ to long‑term follow‑up data to assess implant survival. Finally, we did not record detailed intraoperative parameters (e.g., number of calibration checks, time spent on specific robotic steps), which might help explain the modest prolongation of operative time observed in the MA‑left group.
+
+Surgeon handedness significantly compromises prosthetic alignment accuracy in CM-TKA. In contrast, MA-TKA, through its quantitative, image‑guided approach, mitigates the side‑to‑side discrepancies attributable to handedness, achieving equally precise alignment on both the dominant and non‑dominant sides. Although MA‑TKA modestly prolongs operative time—particularly on the non‑dominant side—it substantially reduces perioperative blood loss and shortens hospital stay, thereby aligning with the principles of enhanced recovery. These findings support the use of MA‑TKA as an effective strategy to mitigate the impact of surgeon handedness, enhancing both the precision and homogeneity of the procedure and offering tangible clinical value.
+
+Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.
+
+Minjiao Wu, Jiayan Chen and Yaping Wang contributed equally to this work.
+
+We would like to give our sincere appreciation to the reviewers for their helpful comments on this article.
+
+Minjiao Wu: design of investigation and data collection. Jiayan Chen: data analysis and writing paper. Yaping Wang: data analysis. Lingjun Jiang: data collection and data analysis. Shujun Chen: data collection, data analysis and writing paper. Chenglong Wang: design of investigation, data collection, data analysis and writing paper. All authors read and approved the final manuscript.
+
+This study was supported by Taizhou Science and Technology Plan (Project No. 25ywb62), Zhejiang Science and Technology Plan for Disease Prevention and Control (Project No. 2026JKY312) and Zhejiang Science and Technology Plan for Health Commission (Project No. 2025HY1427).
+
+The datasets used and/or analysed during the current study are available from the corresponding author on reasonable request.
+
+This study has been approved by the Central Ethics Committee (Taizhou Hospital of Zhejiang Province affiliated to Wenzhou Medical University) (February 6, 2026, Approval number K20260215). All procedures performed in this study were in accordance with the ethical standards of the institutional and/or national research committee and with the 1964 Helsinki declaration and its later amendments or comparable ethical standards.
+
+Written informed consent was obtained from individual or guardian participants.
+
+Written informed consent was obtained from all patients.

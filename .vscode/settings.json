@@ -1,0 +1,16 @@
+{
+    "github.copilot.chat.virtualTools.threshold": 0,
+    "java.configuration.updateBuildConfiguration": "interactive",
+    "cmake.sourceDirectory": "G:/Flutter/tamren_tech/linux",
+    "python.analysis.extraPaths": [
+        "./custom_backend",
+        "C:/Python314/Lib/site-packages",
+        "C:/Users/ahmed/AppData/Roaming/Python/Python314/site-packages"
+    ],
+    "python.autoComplete.extraPaths": [
+        "./custom_backend",
+        "C:/Python314/Lib/site-packages",
+        "C:/Users/ahmed/AppData/Roaming/Python/Python314/site-packages"
+    ],
+    "python.defaultInterpreterPath": "C:/Python314/python.exe"
+}

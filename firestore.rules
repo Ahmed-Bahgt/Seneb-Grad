@@ -1,0 +1,179 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    function signedIn() {
+      return request.auth != null;
+    }
+
+    function isAdmin() {
+      return signedIn() &&
+        exists(/databases/$(database)/documents/admins/$(request.auth.uid)) &&
+        get(/databases/$(database)/documents/admins/$(request.auth.uid)).data.isActive == true;
+    }
+
+    function patientAssignedToDoctor(patientId, doctorId) {
+      return get(/databases/$(database)/documents/patients/$(patientId)).data.assignedDoctorId == doctorId;
+    }
+
+    // ======================== ADMINS COLLECTION ========================
+    match /admins/{adminId} {
+      // Only active admins can read admin records.
+      allow read: if isAdmin();
+
+      // Admins can create admin records.
+      // Bootstrap path: allow the initial fixed admin UID to create its own doc once.
+      allow create: if isAdmin() || (
+        signedIn() &&
+        request.auth.uid == adminId &&
+        request.auth.uid == 'Uk9DCjBkZcWN8R3JFXzK6w6i8aG3' &&
+        !exists(/databases/$(database)/documents/admins/$(adminId))
+      );
+
+      // Admins can update admin records.
+      allow update: if isAdmin();
+
+      // Deletion is restricted to admins (can be tightened later if needed).
+      allow delete: if isAdmin();
+    }
+    
+    // ======================== PATIENTS COLLECTION ========================
+    match /patients/{patientId} {
+      // Patient can read/write their own document
+      allow read, write: if request.auth.uid == patientId;
+      
+      // Doctor assigned to this patient can read patient info
+      allow read: if resource.data.assignedDoctorId == request.auth.uid;
+      
+      // Only assigned doctor can update patient medical data
+      allow update: if request.auth != null && resource.data.assignedDoctorId == request.auth.uid;
+
+      // Admin can read, update, and delete any patient
+      allow read, update, delete: if isAdmin();
+      
+      // ======================== PATIENT BOOKINGS ========================
+      match /bookings/{bookingId} {
+        // Patient can read their own bookings
+        allow read, write: if request.auth.uid == patientId;
+        
+        // Doctor can read bookings made with them
+        allow read: if resource.data.doctorId == request.auth.uid;
+
+        // Admin full access
+        allow read, write, delete: if isAdmin();
+      }
+      
+      // ======================== PATIENT SESSIONS/REPORTS ========================
+      match /Sessions/{sessionId} {
+        allow read, write: if request.auth.uid == patientId;
+        allow read: if get(/databases/$(database)/documents/patients/$(patientId)).data.assignedDoctorId == request.auth.uid;
+        allow read, write, delete: if isAdmin();
+      }
+
+      // ======================== RADIOLOGY REPORTS ========================
+      match /radiology_reports/{reportId} {
+        // Patient can read their own radiology reports
+        allow read: if request.auth.uid == patientId;
+        // Assigned doctor can read and write radiology reports for this patient
+        allow read, write: if get(/databases/$(database)/documents/patients/$(patientId)).data.assignedDoctorId == request.auth.uid;
+        allow read, write, delete: if isAdmin();
+      }
+    }
+    
+    // ======================== DOCTORS COLLECTION ========================
+    match /doctors/{doctorId} {
+      // Doctor can read/write their own document
+      allow read, write: if request.auth.uid == doctorId;
+      
+      // Patients can read public doctor info for booking
+      allow read: if true;
+
+      // Admin can read, update, and delete any doctor
+      allow read, update, delete: if isAdmin();
+      
+      // ======================== DOCTOR BOOKINGS ========================
+      match /bookings/{bookingId} {
+        // Doctor can read their own bookings
+        allow read, write: if request.auth.uid == doctorId;
+        
+        // Patient can read bookings they made with this doctor
+        allow read: if resource.data.patientId == request.auth.uid;
+
+        // Admin full access
+        allow read, write, delete: if isAdmin();
+      }
+      
+      // ======================== DOCTOR AVAILABILITY SLOTS ========================
+      match /availability_slots/{slotId} {
+        // Doctor can read/write their own slots
+        allow read, write: if request.auth.uid == doctorId;
+        
+        // Patients can read all slots (booking screen needs to show availability)
+        allow read: if signedIn();
+
+        // Admin full access
+        allow read, write, delete: if isAdmin();
+      }
+    }
+    
+    // ======================== USERS COLLECTION ========================
+    match /users/{userId} {
+      // User can read/write their own document
+      allow read, write: if request.auth.uid == userId;
+    }
+    
+    // ======================== AVAILABLE SLOTS COLLECTION ========================
+    match /available_slots/{slotId} {
+      // Doctor can create/update their slots
+      allow create: if request.auth != null;
+      allow read: if true; // Patients need to see available slots
+      allow update, delete: if resource.data.doctorId == request.auth.uid;
+      // Admin full access
+      allow read, write, delete: if isAdmin();
+    }
+
+    // ======================== DOCTOR-PATIENT CHAT ========================
+    match /doctor_patient_chats/{chatId} {
+      allow read: if signedIn() &&
+        ((resource.data.doctorId == request.auth.uid ||
+          resource.data.patientId == request.auth.uid) &&
+         patientAssignedToDoctor(resource.data.patientId, resource.data.doctorId));
+
+      allow create, update: if signedIn() &&
+        ((request.resource.data.doctorId == request.auth.uid ||
+          request.resource.data.patientId == request.auth.uid) &&
+         patientAssignedToDoctor(request.resource.data.patientId, request.resource.data.doctorId));
+
+      // Admin can read and delete chats
+      allow read, delete: if isAdmin();
+
+      match /messages/{messageId} {
+        allow read: if signedIn() &&
+          ((get(/databases/$(database)/documents/doctor_patient_chats/$(chatId)).data.doctorId == request.auth.uid ||
+            get(/databases/$(database)/documents/doctor_patient_chats/$(chatId)).data.patientId == request.auth.uid) &&
+           patientAssignedToDoctor(
+             get(/databases/$(database)/documents/doctor_patient_chats/$(chatId)).data.patientId,
+             get(/databases/$(database)/documents/doctor_patient_chats/$(chatId)).data.doctorId
+           ));
+
+        allow create: if signedIn() &&
+          request.resource.data.senderId == request.auth.uid &&
+          request.resource.data.messageType in ['text', 'image'] &&
+          ((get(/databases/$(database)/documents/doctor_patient_chats/$(chatId)).data.doctorId == request.auth.uid ||
+            get(/databases/$(database)/documents/doctor_patient_chats/$(chatId)).data.patientId == request.auth.uid) &&
+           patientAssignedToDoctor(
+             get(/databases/$(database)/documents/doctor_patient_chats/$(chatId)).data.patientId,
+             get(/databases/$(database)/documents/doctor_patient_chats/$(chatId)).data.doctorId
+           ));
+
+        allow update: if false;
+        allow delete: if isAdmin();
+      }
+    }
+    
+    // ======================== DEFAULT DENY ========================
+    // Deny all other access by default
+    match /{document=**} {
+      allow read, write: if false;
+    }
+  }
+}

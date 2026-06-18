@@ -1,0 +1,65 @@
+name: tamren_tech
+description: A remote telerehabilitation in physiotherapy app.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  # The code provided uses standard icons, so these are included by default
+  cupertino_icons: ^1.0.2
+  image_picker: ^1.1.2
+  intl: ^0.19.0
+  camera: ^0.10.5+5
+  permission_handler: ^11.4.0
+  file_picker: ^10.3.7
+  google_mlkit_pose_detection: ^0.12.0
+  chewie: ^1.8.1
+  video_player: ^2.11.1
+  firebase_core: ^3.8.0
+  firebase_auth: ^5.3.4
+  cloud_firestore: ^5.5.1
+  firebase_storage: ^12.4.10
+  http: ^1.6.0
+  image: ^4.0.17
+  exif: ^3.1.5
+  gal: ^1.2.0
+  google_generative_ai: ^0.4.3
+  crypto: ^3.0.0
+  flutter_markdown: ^0.7.3+1
+  youtube_player_flutter: ^9.1.3
+  xml: ^6.6.1
+  audioplayers: ^6.1.0
+  path_provider: ^2.1.0
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+  flutter_launcher_icons: ^0.14.1
+
+flutter:
+  uses-material-design: true
+  
+  assets:
+    - assets/runner_logo.png
+    - assets/logo.png
+    - assets/Background_app.png
+    - assets/data/
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/runner_logo.png"
+  min_sdk_android: 21
+  web:
+    generate: false
+  windows:
+    generate: false
+  macos:
+    generate: false
+
