@@ -178,8 +178,6 @@ Patient Camera Feed (Flutter app)
  Doctor receives the full session report
 ```
 
-This matches the high-level "AI Pipeline — Live Exercise Session" diagram above; the difference is this section shows **exactly which file does each step**, since that's what the supervisor needs to follow.
-
 ### The doctor-facing side: building a new exercise with no code
 
 The "Exercise Builder" screen on the doctor portal (referenced in the Application Flow above) is backed by an AI-assisted wizard in this module:
