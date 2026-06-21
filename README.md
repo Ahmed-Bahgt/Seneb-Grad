@@ -77,15 +77,14 @@ The platform is built to solve a real-world challenge in the Egyptian healthcare
 
 1. **Register & Login** → Patient creates an account and logs in.
 2. **Book an Appointment** → Browse available doctor slots and book a session.
-3. **Home Dashboard** → View upcoming sessions, today's exercises, and notifications.
+3. **Home Dashboard** → View upcoming sessions, today's exercises, Doctor notes.
 4. **Live Exercise Session** → Patient performs assigned exercises:
    - Camera activates → MediaPipe detects body pose in real time.
    - System counts correct and incorrect reps based on joint angles.
    - Audio & visual feedback guides the patient during the session.
    - Session data (reps, errors, accuracy) is sent to the backend.
-5. **Community Feed** → Browse and share posts with other patients for motivation.
-6. **Nutrition Chatbot** → Take a photo of a meal or describe it → AI analyzes nutritional content (calories, macros, vitamins) → Full dietary advice in Arabic or English.
-7. **Medical Hub** → Access to general health information and educational content.
+5. **Nutrition Chatbot** → Take a photo of a meal or describe it → AI analyzes nutritional content (calories, macros, vitamins) → Full dietary advice in Arabic or English.
+6. **Medical Hub** → Access to general health information and educational content.
 
 ---
 
